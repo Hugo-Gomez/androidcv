@@ -84,6 +84,12 @@ public class MainActivity extends AppCompatActivity {
                 fragment = new HomeFragment();
                 break;
             case 1:
+                fragment = new HomeFragment();
+                break;
+            case 2:
+                fragment = new HomeFragment();
+                break;
+            case 3:
                 fragment = new ProjectFragment();
                 break;
         }
