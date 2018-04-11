@@ -5,8 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <TextView
+        android:id="@+id/project_item_title"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bonsoir ceci est un test"/>
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp" />
 
 </android.support.constraint.ConstraintLayout>

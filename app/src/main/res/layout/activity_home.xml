@@ -138,23 +138,11 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                android:layout_marginBottom="10dp"
+                android:text="Étudiant en Licence Professionnelle Développement Web. Je suis passioné par la musique, l'informatique et la programmation."
                 app:layout_constraintEnd_toEndOf="@id/whoiam_card"
                 app:layout_constraintStart_toStartOf="@id/whoiam_card"
                 app:layout_constraintTop_toTopOf="@id/whoiam_card" />
-
-            <TextView
-                android:id="@+id/whoiam_second_paragraph"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                android:paddingBottom="10dp"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-                app:layout_constraintEnd_toEndOf="@id/whoiam_card"
-                app:layout_constraintStart_toStartOf="@id/whoiam_card"
-                app:layout_constraintTop_toBottomOf="@id/whoiam_first_paragraph" />
 
         </LinearLayout>
 
