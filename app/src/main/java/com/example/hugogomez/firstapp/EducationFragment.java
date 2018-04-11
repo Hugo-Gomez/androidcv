@@ -44,10 +44,10 @@ public class EducationFragment extends Fragment {
         // Ecouter les données
         vm.getEducation().observe(this, new Observer<Education[]>() {
             @Override
-            public void onChanged(@Nullable Education[] education) {
+            public void onChanged(@Nullable Education[] educations) {
                 list.setLayoutManager(new LinearLayoutManager(getActivity()));
-                list.setAdapter(new ListAdapter(education, position -> {
-                    Intent intent = new Intent(getActivity(), EducationItemActivity.class);
+                list.setAdapter(new ListAdapterEducation(educations, position -> {
+                    Intent intent = new Intent(getActivity(), EducationScreenViewModel.class);
                     startActivity(intent);
                 }));
                 progressbar.setVisibility(View.GONE);
